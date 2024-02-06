@@ -1,0 +1,49 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Aluno"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-02-06 02:31:31 "/>
+        <attribute name="created" value="QWx1bm87TElNMDMtTjI4OzIwMjQtMDItMDY7IjAxOjIwOjUwICI7MjI0NA=="/>
+        <attribute name="edited" value="QWx1bm87TElNMDMtTjI4OzIwMjQtMDItMDY7IjAyOjMxOjMxICI7MTsyMzU0"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="pedido" type="String" array="False" size=""/>
+            <declare name="sim" type="String" array="False" size=""/>
+            <output expression="&quot; Escolha seu lanche! &quot;" newline="True"/>
+            <output expression="&quot; X-tudo = 19.00, X-bacon = 15.00, X-Salada = 15.00, X-frango = 14.00, X-churrasco = 18.00 &quot;" newline="True"/>
+            <output expression="&quot; Qual &#233; o seu pedido? &quot;" newline="True"/>
+            <input variable="pedido"/>
+            <if expression="pedido==&quot;X-tudo&quot;">
+                <then>
+                    <output expression="&quot; O pre&#231;o &#233; = 19.00 &quot;" newline="True"/>
+                </then>
+                <else/>
+            </if>
+            <if expression="pedido=&quot;X-bacon&quot;">
+                <then>
+                    <output expression="&quot; O pre&#231;o &#233;:15.00 &quot;" newline="True"/>
+                </then>
+                <else/>
+            </if>
+            <if expression="pedido = &quot;X-frango&quot;">
+                <then>
+                    <output expression="&quot; O pre&#231;o &#233;:14.00 &quot;" newline="True"/>
+                </then>
+                <else/>
+            </if>
+            <if expression="pedido = &quot;X-churrasco&quot;">
+                <then>
+                    <output expression="&quot; O pre&#231;o &#233;:18.00 &quot;" newline="True"/>
+                </then>
+                <else/>
+            </if>
+            <output expression="&quot; Finalizar seu pedido? &quot;" newline="True"/>
+            <input variable="sim"/>
+            <output expression="&quot; Seu pedido ser&#225; entregue! &quot;" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
