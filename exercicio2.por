@@ -5,7 +5,7 @@ programa {
     inteiro numero, i, n[10] 
     real soma 
 para(i = 0; i < 10; i++){
-    escreva("Qual o valor do índice ",i,": ?\n")
+    escreva("Qual o valor do Ã­ndice ",i,": ?\n")
     leia(n[i])
     }
  
@@ -15,7 +15,7 @@ para(i = 0; i < 10; i++){
   
 
 
-escreva("A soma do valor é: ",soma)
+escreva("A soma do valor Ã©: ",soma)
 
 }
 }
