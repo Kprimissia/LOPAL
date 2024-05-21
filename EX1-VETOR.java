@@ -5,7 +5,7 @@ public class Main {
         Scanner scanner = new Scanner(System.in);
         int[] numeros = new int[8];
         int maior = Integer.MIN_VALUE;
-        int posicaoMaior = 0;
+        int posicaoMaior = -1;
 
        
         System.out.println("Insira oito números inteiros:");
