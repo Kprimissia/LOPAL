@@ -14,6 +14,6 @@ public class Main {
         }
         scanner.close();
 
-        System.out.println("A soma dos números inseridos é: " + soma);
+        System.out.println("A soma dos 10 números inseridos é: " + soma);
     }
 }
