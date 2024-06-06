@@ -1,4 +1,4 @@
-Lógica de Programação e Algortimos
+## Lógica de Programação e Algortimos
 "Lógica de Programação e Algoritmos" é uma disciplina fundamental para qualquer pessoa que queira se aventurar no mundo da programação. Essa matéria tem como objetivo ensinar os conceitos básicos e fundamentais que formam a base da programação de computadores.
 
 Variáveis
